@@ -3,15 +3,15 @@ var repo = function () {
     var db = {};
 
     var get = function (id) {
-        console.log('Get a Task ' + id);
+        console.log('Get a User ' + id);
         return {
-            name: 'new task from db'
+            name: 'admin'
         }
-    }
+    };
 
-    var save = function (task) {
-        console.log('Saving ' + task.name + ' to DB.');
-    }
+    var save = function (user) {
+        console.log('Saving ' + user.name + ' to DB.');
+    };
 
     return {
         get: get,
